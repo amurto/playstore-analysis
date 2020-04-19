@@ -4,6 +4,7 @@ Dashboard made using Python Tkinter for analysis, visualization and trend foreca
 # Table of Contents
 
 * [Problem](https://github.com/amurto/playstore-analysis#problem)
+* [Description](https://github.com/amurto/playstore-analysis#description)
 * [Installation](https://github.com/amurto/playstore-analysis#installation)
   * [Prerequisites](https://github.com/amurto/playstore-analysis#prerequisites)
   * [Instructions](https://github.com/amurto/playstore-analysis#instructions)
