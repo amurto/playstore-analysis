@@ -141,7 +141,7 @@ def enter_dataset1():
     a_ver=StringVar()
     a_verog=StringVar()
     
-    photo = ImageTk.PhotoImage(Image.open("blacktheme.jpg")) # opening left side image - Note: If image is in same folder then no need to mention the full path
+    photo = ImageTk.PhotoImage(Image.open("images/blacktheme.jpg")) # opening left side image - Note: If image is in same folder then no need to mention the full path
     label = Label(dataset1, image=photo, text="") # attaching image to the label
     label.place(x=0, y=0)
     label.image = photo
@@ -225,7 +225,7 @@ def enter_dataset2():
     dataset2 = Toplevel(myroot)
     dataset2.title("Data Entry")
     adjustscreen1(dataset2)
-    photo = ImageTk.PhotoImage(Image.open("blacktheme.jpg")) # opening left side image - Note: If image is in same folder then no need to mention the full path
+    photo = ImageTk.PhotoImage(Image.open("images/blacktheme.jpg")) # opening left side image - Note: If image is in same folder then no need to mention the full path
     label = Label(dataset2, image=photo, text="") # attaching image to the label
     label.place(x=0, y=0)
     label.image = photo
